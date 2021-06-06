@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <link rel='stylesheet' media='all' href="css/main.css">
+    <link rel='stylesheet' media='all' href="css/welcome.css">
+    <link rel='stylesheet' media='all' href="css/gallery.css">
+
+    <!-- <link rel='stylesheet' media='print' href="{{ url_for('static', filename='/css/main.css')}}">
+    <link rel='stylesheet' media='screen and (min-width: 265px)' href="{{ url_for('static', filename='/css/main.css')}}"> -->
+ 
+    <meta charset="UTF-8" />
+    <title>Gary2020</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/styles.main.css"> -->
+
+    <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <link href="path/to/lightbox.css" rel="stylesheet" />
+
+    <link rel="home" href="index.html">
+    <link rel="welcome" href="welcome.html">
+    <link rel="contact" href="../contact.html">
+    <link rel="gallery" href="../gallery.html">
+    
+</head>
+
+<body>
+    <div class="header" id="myHeader">
+        <h1>Coats Horseshoeing</h1>
+        <p>Click on the buttons to change the grid view.</p>
+        <button class="btn" onclick="one()">1</button>
+        <button class="btn active" onclick="two()">1</button>
+        <button class="btn" onclick="four()">4</button>
+    </div>
+
+    <!-- Photo Grid-->
+    <div class="row">
+        <div class="column">
+            <img src="/images/gdog copy.jpg" style="width:20%">
+            <img src="/image2/anvil.JPG" style="width:16%">
+            <img src="/image2/shoebox2.JPG" style="width:20%">
+            <img src="/images/nail3.JPG" style="width:15%">
+            <img src="/images/nipperclose.jpg" style="width:10%">
+        </div>
+        <div class="column">
+            <img src="/images/shoeback.jpg" style="width:15%">
+            <img src="/image2/rasp.JPG" style="width:17%">
+            <img src="/image2/shoefront.jpg" style="width:16%">
+            <img src="/image2/shoefront2.jpg" style="width:17%">
+            <img src="/images/correcshoe.JPG" style="width:17%">
+            
+        </div>
+        <div class="column">
+            <img src="/images/spreaders.jpg" style="width:13%">
+            <img src="/images/backfoot.JPG" style="width:13%">
+            <img src="/image2/nails.jpg" style="width:16%">
+            <img src="/images/correcshoe2.JPG" style="width:17%">
+            <img src="/images/shoe.jpeg" style="width:14%">
+        </div>
+        <div class="column">
+            <img src="/images/gary1.jpg" style="width:17%"> 
+            <img src="/image2/trimmin.JPG" style="width:17%">
+            <img src="/image2/hammer1.JPG" style="width:17%">
+            <img src="/images/customer.JPG" style="width:17%">
+            <img src="/images/anvil2.jpg" style="width:17%">
+        </div>
+    </div>
+    <!-- <div class="heading">
+        <a href="index.html">Home</a>
+        <h1>Click photo to enlarge</h1>
+    </div> -->
+
+    <!-- <div class="gallery">
+        <a href="images/gdog copy.jpg"><img src="images/garydogtn.jpg"></a>
+        <a href="image2/anvil.JPG"><img src="image2/anviltn.jpg"></a>
+        <a href="image2/shoebox2.JPG"><img src="image2/shoebox2tn.jpg"></a>
+        <a href="image2/nail3.JPG"><img src="image2/nail3tn.jpg"></a>
+        <a href="image2/nipperclose.jpg"><img src="image2/nipperclosetn.jpg"></a>
+        <a href="image2/shoeback.jpg"><img src="image2/shoebacktn.jpg"></a>
+        <a href="image2/rasp.JPG"><img src="image2/rasptn.jpg"></a>
+        <a href="image2/shoefront2.JPG"><img src="image2/shoefront2tn.jpg"></a>
+        <a href="image2/correcshoe.JPG"><img src="image2/correcshoetn.jpg"></a>
+        <a href="image2/backfoot.JPG"><img src="image2/backfoottn.jpg"></a>
+        <a href="image2/spreaders.jpg"><img src="image2/spreaderstn.jpg"></a>
+        <a href="image2/shoefront.jpg"><img src="image2/shoefronttn.jpg"></a>
+        <a href="image2/nails.jpg"><img src="image2/nailstn.jpg"></a>
+        <a href="image2/correcshoe2.JPG"><img src="image2/correcshoetn.jpg"></a>
+        <a href="image2/shoe.jpeg"><img src="image2/shoetn.jpg"></a>
+        <a href="image2/gary1.jpg"><img src="image2/gary1tn.jpg"></a>
+        <a href="image2/customer.JPG"><img src="image2/customertn.jpg"></a>
+        <a href="image2/anvil2.jpg"><img src="image2/anvil2tn.jpg"></a>
+        <a href="image2/hammer1.JPG"><img src="image2/hammer1tn.jpg"></a>
+        <a href="image2/trimmin.JPG"><img src="image2/trimmintn.jpg"></a>
+
+
+    </div>
+
+    <script src="path/to/lightbox.js"></script>
+ -->
+    <!-- <div class="row">
+        <div class="column">
+            <img src="images/shoebox2.JPG" style="width:100%">
+            <img src="images/nipperclose.jpg" style="width:100%">
+            <img src="images/nail3.JPG" style="width:100%">
+            <img src="images/shoeback.jpg" style="width:100%">
+            <img src="images/rasp.JPG" style="width:100%">g
+        </div>
+        <div class="column">
+            <img src="images/spreaders.jpg" style="width:100%">
+            <img src="images/shoefront.jpg" style="width:100%">
+            <img src="images/nails.jpg" style="width:100%">
+            <img src="images/correcshoe2.JPG" style="width:100%">
+            <img src="images/shoe.jpeg" style="width:100%">
+        </div>
+        <div class="column">
+            <img src="images/shoefront2.jpg" style="width:100%">
+            <img src="images/anvil.JPG" style="width:100%">
+            <img src="images/correcshoe.JPG" style="width:100%">
+            <img src="images/backfoot.JPG" style="width:100%">
+            <img src="images/garydog.JPG" style="width:100%">
+            
+        </div>
+        <div class="column">
+            <img src="images/nails.jpg" style="width:100%">
+            <img src="images/gary1.jpg" style="width:100%">
+            <img src="images/customer.JPG" style="width:100%">
+            <img src="images/anvil2.JPG" style="width:100%">
+            <img src="images/hammer1.JPG" style="width:100%">
+            <img src="images/trimmin.JPG" style="width:100%">
+        </div>
+    </div> -->
+</body>
+</html>

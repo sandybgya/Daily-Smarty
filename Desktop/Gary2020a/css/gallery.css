@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(212, 145, 58);
+    margin: 0;
+    font-family: 'David Libre', serif;
+}
+
+.gallery {
+    margin: 10px 50px;
+}
+
+.gallery img {
+    transition: 1s;
+    padding: 15px;
+    width: 200px;
+}
+
+.gallery img:hover {
+    filter: grayscale(100%);
+    transform: scale(1.1);
+}
+
+
+
+/* .header {
+    text-align: center;
+    position: center;
+    margin-top: -50px;
+    margin-left: 20px;
+    font-family: 'Sansitya Swashed', cursive;
+    font-size: 2em;
+    color: #8B4513;
+} */
+
+/* .heading {
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 1em;
+    font: rgb(37, 24, 24);
+}
+
+#navbar  {
+    display: inline-block;
+    vertical-align: top;
+    list-style-type: none;
+    padding-left: 10px;
+    width: 60px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-family: 'Sansita Swashed', cursive;
+    color: #8B4513;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+    .column {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+} */
